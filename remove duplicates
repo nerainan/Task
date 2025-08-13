@@ -1,0 +1,21 @@
+
+public class removeduplicates {
+
+public static void main(String[] args) {
+String input = "java";
+String output = "";
+
+for(int i = 0; i<input.length(); i++) {
+char A = input.charAt(i);
+
+if(output.indexOf(A) == -1) {
+output += A;
+
+}
+}
+
+System.out.println(output);
+
+}
+
+}
