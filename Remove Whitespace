@@ -1,23 +1,13 @@
-package com.java;
 
-import java.util.Scanner;
 
 public class RemoveWhitespace {
+    
+    public static void main(String[] args) {
+       
+        String a = "ja va";
+        String b = a.replaceAll("\\s", "");
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String A = sc.nextLine();
-		String result = "";
-		
-		for(int i = 0; i< A.length(); i++) {
-			if(A.charAt(i) !=' ') {
-				result +=A.charAt(i);
-			}
-		
-	}
-		System.out.println(result);
-		
-		sc.close();
-	}
-
+        System.out.println("Input: " + a);
+        System.out.println("Output: " + b);
+    }
 }
