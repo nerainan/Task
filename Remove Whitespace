@@ -1,6 +1,5 @@
 public class RemoveWhitespace {
-    
-    public static void main(String[] args) {
+     public static void main(String[] args) {
        
         String a = "ja va";
         String b = a.replaceAll("\\s", "");
