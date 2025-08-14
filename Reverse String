@@ -1,0 +1,17 @@
+package com.java;
+
+public class ReverseString {
+	public static void main(String[]args) {
+		
+		String ip = "javajava";
+		StringBuilder reversed = new StringBuilder();
+		
+		for(int i = ip.length() - 1; i>=0; i--) {
+			reversed.append(ip.charAt(i));
+			
+		}
+		System.out.println("Reversed String: " + reversed.toString());
+		
+	}
+
+}
